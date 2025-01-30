@@ -1,8 +1,16 @@
-
 a {
   font-weight: 400;
   font-size: 18px;
   color: #000;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .ref__border__decoration {
@@ -58,13 +66,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.overlay {
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
@@ -130,4 +131,99 @@ a {
   /*background-color: rgba(0,0,0,0);*/
   background-color: transparent;
   border-color: #fff;
+}
+
+.lots {
+  display: flex;
+  flex-direction: column;
+  margin: 180px 24px 0;
+  height: 723px;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  list-style-type: none;
+}
+
+.card-link {
+  height: 100%;
+  text-decoration: none; 
+}
+
+.card {
+  height: 100%;  
+}
+.card .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book{
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.card_type_picture{
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title {
+  padding: 48px 40px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.card__text {
+  padding: 0 40px 48px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.lots__look-more-link {
+  padding-left: 40px;
+  padding-top: 29px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.lots__look-more-link a {
+  text-decoration: none;
 }
