@@ -27,7 +27,7 @@ a {
 
 .header__links-list {
   display: flex;
-  gap: 15px;
+  gap: 11px;
   list-style: circle;
   list-style-position: inside;
 }
@@ -43,11 +43,11 @@ a {
 .header__logo {
   display: block;
   width: 129.11px;
-  height: 104.95px;
+  height: 104.65px;
 }
 
 .address {
-  padding-right: 40px;
+  padding-right: 34px;
   font-style: normal;
 }
 
@@ -125,8 +125,8 @@ a {
 
 .bet-button {
   all: unset;
-  width: 256px;
-  height: 51px;
+  width: 254px;
+  height: 49px;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -137,6 +137,7 @@ a {
   /*background-color: rgba(0,0,0,0);*/
   background-color: transparent;
   border-color: #fff;
+  word-spacing: 3px;
 }
 
 .lots {
@@ -296,7 +297,7 @@ a {
 }
 
 .footer__address {
-  padding-left: 50px;
+  padding-left: 52px;
 }
 
 .footer__menu {
